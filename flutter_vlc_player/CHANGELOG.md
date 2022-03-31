@@ -1,3 +1,19 @@
+## 7.1.0
+* Upgrade iOS and Android Lib VLC libraries to address performance issues. https://code.videolan.org/videolan/vlc-ios/-/issues/1240
+Credits to Mitch Ross (https://github.com/mitchross)
+
+
+## 7.0.1
+* Improve formatting
+* Modify LICENSE to use template so it parsed automatically.
+
+## 7.0.0
+* **Breaking Change**: Refactored enum parameters to follow dart naming convention 
+* Fixed control overlay issue after upgrading to Flutter 2.8
+* Fixed Dart analysis warnings
+* Removed unnecessary initialization delay
+Credits to Alireza Setayesh (https://github.com/alr2413), Mitch Ross (https://github.com/mitchross), Illia Romanenko (https://github.com/illia-romanenko) and Yurii Prykhodko (https://github.com/solid-yuriiprykhodko).
+
 ## 6.0.5
 * Fix issue with options applying (Android)
 * Update VLCKit for iOS and Android
